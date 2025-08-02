@@ -1,11 +1,11 @@
 name: First workflow
 on: workflow_dispatch
-  jobs:
-    first-job:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Greeting
-          run: echo "Hello"
-        - name: By
-          ryn: echo "Buy"
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greeting
+        run: echo "Hello"
+      - name: By
+        run: echo "Buy"
         
